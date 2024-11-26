@@ -4,16 +4,12 @@ import banner from "../../assets/images/banner.webp";
 export default function FAQ() {
   const items = [
     {
-      title: "Is it accessible?",
-      content: "Yes. It adheres to the WAI-ARIA design pattern.",
+      title: "Apakah pendaftaran RCA berbayar?",
+      content: "Tidak yaa, kamu bisa daftar secara gratiss ya!",
     },
     {
-      title: "Is it styled?",
-      content: "Yes. It comes with default styles that match the other components aesthetic.",
-    },
-    {
-      title: "Is it animated?",
-      content: "Yes. It's animated by default, but you can disable it if you prefer.",
+      title: "Kapan deadline pendaftaranya?",
+      content: "Sampai tanggal 30 November 23.59 yahh, jangan sampai lupa!",
     },
   ];
 

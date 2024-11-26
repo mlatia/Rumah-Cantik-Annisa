@@ -25,11 +25,6 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="md:w-8/12 sm:w-full flex justify-end gap-9 items-start md:mt-0 mt-6 md:mb-0 mb-8">
-          <label className="text-xl text-white">Home</label>
-          <label className="text-xl text-white">Main Event</label>
-          <label className="text-xl text-white">FAQ</label>
-        </div>
       </div>
       <div className="flex justify-between items-center mt-4 border-t-2 border-black pt-10">
         <p className="md:text-lg text-xs text-white">

@@ -10,11 +10,11 @@ export default function Rca() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "auto", 
+        height: "auto",
       }}
     >
       <h2 className="text-4xl sm:text-5xl md:text-6xl mb-8 font-bold bg-gradient-to-r from-secondary to-white inline-block text-transparent bg-clip-text text-center">
-        Navigating The Unknow <br /> Shaping Tomorrow
+        Navigating The Unknown <br /> Shaping Tomorrow
       </h2>
 
       <div className="relative w-full flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-12">
