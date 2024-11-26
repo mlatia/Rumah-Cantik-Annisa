@@ -1,13 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter, redirect, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./screens/App";
 import About from "./screens/about";
-import Event from "./screens/event"
-// import ComingSoon from "./screens/ComingSoon";
+import Event from "./screens/event";
 import FAQ from "./screens/faq";
-
 
 const router = createBrowserRouter([
   {
@@ -16,19 +14,31 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => redirect('/about'),
+        element: <About />, // Set About as the default route
       },
       {
         path: "about",
-        element: (<About ></About>),
+        element: <About />,
       },
       {
         path: "event",
-        element: (<Event></Event>),
+        element: <Event />,
       },
       {
         path: "faq",
-        element: (<FAQ></FAQ>),
+        element: <FAQ />,
+      },
+      {
+        path: "*",
+        element: <About />, 
+      },
+      {
+        path: "*",
+        element: <Event />, 
+      },
+      {
+        path: "*",
+        element: <FAQ />,
       },
     ],
   },
