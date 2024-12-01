@@ -2,13 +2,11 @@ import BannerAbout from './BannerAbout'
 import OverviewAbout from './OverviewAbout'
 import Rca from './Rca'
 import Donasi from './Donasi'
-import Trailer from './Trailer'
 
 export default function About() {
   return (
     <div className='w-full'>
       <BannerAbout></BannerAbout>
-      <Trailer></Trailer>
       <div className='flex justify-center items-center py-4 gap-4'>
         <div className='border-2 bg-[#FADB44] border-black md:h-10 md:w-10 h-6 w-6 rounded-full'></div>
         <a href="https://youtube.com/live/x8dZZWONKtU" target="_blank" rel="noopener noreferrer"><h2 className='text-primary md:text-5xl text-xl hover:underline hover:underline-offset-2 cursor-pointer'>Live Streaming Youtube!</h2></a>
