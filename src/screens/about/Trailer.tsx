@@ -17,8 +17,8 @@ export default function Trailer() {
         <div className="relative  w-full flex justify-center">
         <div className="relative w-full md:w-3/5" style={{ paddingBottom: '56.25%' }}>
         <iframe
-            src="https://www.youtube.com/embed/YpTcp8HmWyQ"
-            title="YouTube video trailer"
+            src="https://youtube.com/live/x8dZZWONKtU"
+            title="YouTube Video Streaming"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
