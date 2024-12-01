@@ -9,7 +9,12 @@ export default function About() {
       <BannerAbout></BannerAbout>
       <div className='flex justify-center items-center py-4 gap-4'>
         <div className='border-2 bg-[#FADB44] border-black md:h-10 md:w-10 h-6 w-6 rounded-full'></div>
-        <a href="https://youtube.com/live/x8dZZWONKtU" target="_blank" rel="noopener noreferrer"><h2 className='text-primary md:text-5xl text-xl hover:underline hover:underline-offset-2 cursor-pointer'>Live Streaming Youtube!</h2></a>
+        <a href="https://youtube.com/live/x8dZZWONKtU" target="_blank" rel="noopener noreferrer"><h2 className='text-primary md:text-5xl text-xl hover:underline hover:underline-offset-2 cursor-pointer'>Live Streaming Talkshow!</h2></a>
+        <div className='border-2 bg-[#FADB44] border-black md:h-10 md:w-10 h-6 w-6 rounded-full'></div>
+      </div>
+      <div className='flex justify-center items-center py-4 gap-4'>
+        <div className='border-2 bg-[#FADB44] border-black md:h-10 md:w-10 h-6 w-6 rounded-full'></div>
+        <a href="https://www.youtube.com/live/Ra8DUGNRAvg" target="_blank" rel="noopener noreferrer"><h2 className='text-primary md:text-5xl text-xl hover:underline hover:underline-offset-2 cursor-pointer'>Live Streaming Workshop!</h2></a>
         <div className='border-2 bg-[#FADB44] border-black md:h-10 md:w-10 h-6 w-6 rounded-full'></div>
       </div>
       <OverviewAbout></OverviewAbout>
